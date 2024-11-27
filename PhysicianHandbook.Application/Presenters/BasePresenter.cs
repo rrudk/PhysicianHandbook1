@@ -19,7 +19,6 @@ public abstract class BasePresenter<TView, TModel>
 
     protected virtual void Initialize()
     {
-        // Метод для дополнительной инициализации в производных классах
     }
 
     protected abstract Task<List<TModel>> GetModelsAsync();

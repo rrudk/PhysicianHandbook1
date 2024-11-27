@@ -97,7 +97,6 @@ public class DiseasePresenter : BasePresenter<IDiseaseView, Disease>, IDisposabl
         }
     }
 
-    // Метод для очистки ресурсов
     public void Dispose()
     {
         _medicationUpdateTimer?.Stop();
